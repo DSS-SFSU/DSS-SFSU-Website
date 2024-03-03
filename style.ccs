@@ -1,14 +1,52 @@
-body {
+/* Reset default styles */
+html, body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+}
+
+/* Body styles */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    color: #333333;
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-p {
-    color: #666666;
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+/* Link styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
