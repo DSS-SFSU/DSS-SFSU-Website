@@ -10,8 +10,9 @@ body {
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto; /* Center the website horizontally */
+    max-width: 1200px; /* Set a maximum width for the website */
+    padding: 0 20px; /* Add padding to the sides */
 }
 
 /* Header styles */
