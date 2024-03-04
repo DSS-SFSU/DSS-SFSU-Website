@@ -1,5 +1,5 @@
 /* Reset default styles */
-body, h1, h2, h3, p, ul, li {
+body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -22,13 +22,6 @@ header {
     text-align: center;
 }
 
-/* Logo styles */
-header img {
-    width: 50px; /* Adjust as needed */
-    height: 50px; /* Adjust as needed */
-}
-
-/* Navigation styles */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -58,41 +51,6 @@ section {
     margin-bottom: 20px;
 }
 
-/* Centered content styles */
-.center-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-/* Team member styles */
-.team-member {
-    display: inline-block;
-    margin: 20px;
-    text-align: center;
-}
-
-.team-member img {
-    width: 150px; /* Adjust as needed */
-    height: 150px; /* Adjust as needed */
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.team-member p {
-    margin-bottom: 5px;
-}
-
-.team-member a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.team-member a:hover {
-    text-decoration: underline;
-}
-
 /* Footer styles */
 footer {
     background-color: #f9f9f9;
@@ -102,22 +60,6 @@ footer {
     border-top: 1px solid #ddd;
 }
 
-/* Social links styles */
-.social-links {
-    list-style-type: none;
-    padding: 0;
-}
-
-.social-links li {
-    display: inline;
-    margin-right: 10px;
-}
-
-.social-links a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.social-links a:hover {
+a:hover {
     text-decoration: underline;
 }
