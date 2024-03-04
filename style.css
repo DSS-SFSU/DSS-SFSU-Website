@@ -128,6 +128,28 @@ header img {
     margin-bottom: 10px;
 }
 
+/* Member benefits container */
+.member-benefits {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly with space between them */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    margin-top: 20px; /* Add some margin at the top */
+}
+
+/* Member benefit item */
+.member-benefit {
+    width: calc(50% - 10px); /* Set width to half of the container minus some margin */
+    margin-bottom: 20px; /* Add some margin at the bottom */
+    padding: 10px; /* Add padding inside the item */
+    border: 1px solid #ccc; /* Add border for better visibility */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Add space between the two columns */
+.member-benefits .member-benefit:nth-child(even) {
+    margin-left: 20px; /* Adjust as needed */
+}
+
 /* Footer styles */
 footer {
     background-color: #f9f9f9;
