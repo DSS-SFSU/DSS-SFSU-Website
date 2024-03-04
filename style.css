@@ -46,6 +46,10 @@ nav ul li a:hover {
 main {
     padding: 20px;
 }
+/* Center main text */
+main {
+    text-align: center;
+}
 
 /* Section styles */
 section {
