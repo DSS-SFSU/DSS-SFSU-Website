@@ -1,15 +1,14 @@
 /* Reset default styles */
-body, hi, h2, p, ul, li {
+body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
-    font-size: 20px;
 }
 
 /* Body styles */
 body {
     background-color: #f9f9f9;
-    color: 333;
+    color: #333;
     line-height: 1.6;
     margin: 0 auto; /* Center the website horizontally */
     max-width: 1200px; /* Set a maximum width for the website */
@@ -22,6 +21,12 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+/* Header h1 styles */
+header h1 {
+    font-size: 36px; /* Set font size to 36px */
+    font-weight: bold; /* Set font weight to bold */
 }
 
 /* Navigation styles */
@@ -38,6 +43,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 14px; /* Set font size to 14px */
 }
 
 nav ul li a:hover {
