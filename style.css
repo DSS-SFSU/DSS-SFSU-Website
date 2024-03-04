@@ -128,25 +128,23 @@ header img {
     margin-bottom: 10px;
 }
 
-/* Member benefits styles */
+/* Member benefits container */
 .member-benefits {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
     margin-top: 20px;
 }
 
+/* Member benefit item */
 .member-benefit {
-    width: calc(50% - 10px);
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+    width: calc(45% - 20px); /* Set width to 45% of the container width with spacing */
+    margin: 10px; /* Add margin around each item */
+    padding: 10px; /* Add padding inside the item */
+    border: 1px solid #ccc; /* Add border for better visibility */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
-.member-benefits .member-benefit:nth-child(even) {
-    margin-left: 20px;
-}
 
 /* Footer styles */
 footer {
