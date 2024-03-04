@@ -129,20 +129,13 @@ header img {
     margin-bottom: 10px;
 }
 
-/* Member benefits container */
 .member-benefits {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center; /* Center items horizontally */
-    margin-top: 20px;
-}
-
-/* Member benefit item */
-.member-benefit {
-    width: calc(45% - 20px); /* Set width to 45% of the container width with spacing */
-    margin: 10px; /* Add margin around each item */
-    padding: 10px; /* Add padding inside the item */
-    border: 1px solid #ccc; /* Add border for better visibility */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    margin: 0 auto; /* Center the container and add space on the sides */
+    max-width: 1000px; /* Set a maximum width for the container */
+    padding: 0 20px; /* Add padding on the sides */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
