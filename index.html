@@ -1,3 +1,6 @@
+To make the "About Us" page the home page and have "Become a Member" and "Meet the Team" as clickable sections in the header, you can modify the structure of the HTML and adjust the navigation links. Here's how you can do it:
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,39 +18,38 @@
         <nav>
             <ul>
                 <li><a href="#about">About Us</a></li>
-                <li><a href="#mission">Mission</a></li>
-                <li><a href="#vision">Vision</a></li>
+                <li><a href="#join">Become a Member</a></li>
                 <li><a href="#team">Meet the Team</a></li>
             </ul>
         </nav>
     </header>
+
     <div class="center-content">
-    <main>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Welcome to the Data Science Society at San Francisco State University. We are dedicated to fostering a community of data science enthusiasts, learners, and professionals. By bridging theory and practice, our club aims to develop well-rounded, ethical, and impactful data scientists ready to meet the demands of society and the future.
-            </p>
-        </section>
-        <section id="mission">
-            <h2>Our Mission</h2>
-            <p>Our mission is to foster a community that thrives on curiosity, innovation, and ethical practices, by empowering and equipping students with the skills and knowledge to navigate the field of data science.
-            </p>
-        </section>
-        <section id="vision">
-            <h2>Our Vision</h2>
-            <p>Striving to be a leading hub for data science at our university, we envision a community that collaborates to solve real-world problems using data-driven decision-making.
-            </p>
-        </section>
-        <section id="team">
-            <h2>Meet the Team</h2>
-            <p>Our team is composed of passionate individuals who are dedicated to offering career-focused guidance to ensure personal and professional growth.</p>
-    
-            <div class="team-member">
-                <img src="profilepic/inayyah.jpg" alt="Dona Inayyah">
-                <p>Name: Dona Inayyah</p>
-                <p>Role: Co-Founder and President</p>
-                <p><a href="https://www.linkedin.com/in/dona-inayyah/">LinkedIn</a> | Email: ddonnazwim@sfsu.edu.com</p>
-            </div>
+        <main>
+            <section id="about">
+                <h2>About Us</h2>
+                <h3>Description</h3>
+                <p>Welcome to the Data Science Society at San Francisco State University. We are dedicated to fostering a community of data science enthusiasts, learners, and professionals. By bridging theory and practice, our club aims to develop well-rounded, ethical, and impactful data scientists ready to meet the demands of society and the future.</p>
+                <h3>Mission and Vision</h3>
+                <p>Our mission is to foster a community that thrives on curiosity, innovation, and ethical practices, by empowering and equipping students with the skills and knowledge to navigate the field of data science. Striving to be a leading hub for data science at our university, we envision a community that collaborates to solve real-world problems using data-driven decision-making.</p>
+            </section>
+
+            <section id="join">
+                <h2>Become a Member</h2>
+                <h3>Member Benefits</h3>
+                <p>As a member of the Data Science Society, you will have access to exclusive benefits such as workshops, networking events, and project opportunities. You will also receive guidance and support to help you build your portfolio and advance your career in data science.</p>
+                <h3>Certificate of Membership Eligibility</h3>
+                <p>Upon completion of certain requirements, members are eligible to receive a Certificate of Membership from the Data Science Society. This certificate serves as a formal recognition of your commitment to the field of data science and can be a valuable addition to your resume or LinkedIn profile.</p>
+            </section>
+
+            <section id="team">
+                <h2>Meet the Team</h2>
+                <div class="team-member">
+                    <img src="profilepic/inayyah.jpg" alt="Dona Inayyah">
+                    <p>Name: Dona Inayyah</p>
+                    <p>Role: Co-Founder and President</p>
+                    <p><a href="https://www.linkedin.com/in/dona-inayyah/">LinkedIn</a> | Email: ddonnazwim@sfsu.edu.com</p>
+                </div>
             <div class="team-member">
                 <img src="profilepic/carlos.jpg" alt="Carlos Miguel">
                 <p>Name: Carlos Miguel De Leon</p>
@@ -72,10 +74,17 @@
                 <p>Role: Media Manager</p>
                 <p><a href="https://www.linkedin.com/in/janesmith">LinkedIn</a> | Email: janesmith@example.com</p>
             </div>
-        </section>
-    </main>
+            </section>
+        </main>
+    </div>
+
     <footer>
-        <p>&copy; 2024 Data Science Society at San Francisco State University. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="https://www.instagram.com/dss.sfstate/">Instagram</a></li>
+            <li><a href="https://discord.com/invite/ZXpeeeTZep">Discord</a></li>
+            <li><a href="https://www.linkedin.com/in/data-science-society-at-sfsu-5374102b8/">LinkedIn</a></li>
+        </ul>
+        <p>&copy; 2024 Data Science Society at San Francisco State University. All rights reserved.
     </footer>
 </body>
 </html>
