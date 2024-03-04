@@ -13,8 +13,8 @@ header h1 {
 
 /* Body styles */
 body {
-    background-color: #007bff;
-    color: white;
+    background-color: #f9f9f9;
+    color: 333;
     line-height: 1.6;
     margin: 0 auto; /* Center the website horizontally */
     max-width: 1200px; /* Set a maximum width for the website */
@@ -23,8 +23,8 @@ body {
 
 /* Header styles */
 header {
-    background-color: #f9f9f9;
-    color: 334;
+    background-color: #007bff;
+    color: white;
     padding: 20px;
     text-align: center;
 }
