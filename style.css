@@ -99,6 +99,35 @@ header img {
     text-decoration: underline;
 }
 
+.requirements {
+    margin-top: 20px;
+}
+
+.requirements ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.requirements ul li {
+    margin-bottom: 10px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.benefits ul li {
+    margin-bottom: 10px;
+}
+
 /* Footer styles */
 footer {
     background-color: #f9f9f9;
