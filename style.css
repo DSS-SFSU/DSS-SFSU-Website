@@ -22,6 +22,7 @@ header {
     text-align: center;
 }
 
+/* Navigation styles */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -51,6 +52,45 @@ section {
     margin-bottom: 20px;
 }
 
+#team {
+    margin-top: 20px;
+}
+
+/* Add this to center the content */
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Adjust image sizes */
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.team-member p {
+    margin-bottom: 5px;
+}
+
+.team-member a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.team-member a:hover {
+    text-decoration: underline;
+}
+
 /* Footer styles */
 footer {
     background-color: #f9f9f9;
@@ -60,6 +100,20 @@ footer {
     border-top: 1px solid #ddd;
 }
 
-a:hover {
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-links a:hover {
     text-decoration: underline;
 }
