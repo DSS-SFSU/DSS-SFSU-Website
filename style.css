@@ -1,5 +1,5 @@
 /* Reset default styles */
-body, h1, h2, p, ul, li {
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -20,6 +20,12 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+/* Logo styles */
+header img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
 }
 
 /* Navigation styles */
@@ -52,11 +58,7 @@ section {
     margin-bottom: 20px;
 }
 
-#team {
-    margin-top: 20px;
-}
-
-/* Add this to center the content */
+/* Centered content styles */
 .center-content {
     display: flex;
     justify-content: center;
@@ -64,19 +66,18 @@ section {
     flex-direction: column;
 }
 
-/* Adjust image sizes */
-.team-member img {
-    width: 50px; /* Adjust as needed */
-    height: 50px; /* Adjust as needed */
-    border-radius: 50%;
-    object-fit: cover; /* Ensures images maintain aspect ratio */
-    margin-bottom: 10px;
-}
-
+/* Team member styles */
 .team-member {
     display: inline-block;
     margin: 20px;
     text-align: center;
+}
+
+.team-member img {
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 .team-member p {
@@ -101,7 +102,22 @@ footer {
     border-top: 1px solid #ddd;
 }
 
-a:hover {
-    text-decoration: underline;
+/* Social links styles */
+.social-links {
+    list-style-type: none;
+    padding: 0;
 }
 
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
