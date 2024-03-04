@@ -1,8 +1,9 @@
-<button onclick="changeColor()">Change Color</button>
-<p id="text">Hello, world!</p>
+document.addEventListener("DOMContentLoaded", function() {
+    // JavaScript code for any dynamic behavior
+    // For example, you can add your changeColor function here
+    function changeColor() {
+        document.getElementById("text").style.color = "red";
+    }
 
-<script>
-function changeColor() {
-    document.getElementById("text").style.color = "red";
-}
-</script>
+    // You can call changeColor() or other functions here
+});
