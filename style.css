@@ -66,9 +66,16 @@ section {
 
 /* Adjust image sizes */
 .team-member img {
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Adjust logo size */
+header img {
+    width: 100px;
+    height: 100px;
     margin-bottom: 10px;
 }
 
